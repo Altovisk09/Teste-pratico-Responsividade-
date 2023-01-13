@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&family=Nunito:wght@700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Tam imgs*/
+#especializações img {
+    width: 100px;
+    height: 100px;
+}
+
+#Referencias img {
+    width: 100%;
+    height: 200px;
+}
+
+#Referencias #Projt1 img {
+    width: 100%;
+    height: 325px;
+}
+
+#Referencias #Projt2 img {
+    width: 100%;
+    height: 325px;
+}
+
+#contato img {
+    width: 25px;
+    height: 25px;
+}
+
+/*Tam imgs*/
+
+/*Fontes*/
+
+body {
+    font-family: 'Nunito', 'sans-serif';
+    color: #1c1c1c
+}
+
+h1 h2 h3 {
+    font-family: 'Asap', 'sans-serif';
+    color: #000000
+}
+
+/*Fontes*/
+
+/*Botao*/
+#teste button a {
+    color: #ffffff;
+}
+
+#teste button {
+    background-color: rgb(142, 227, 248);
+    border-radius: 50%;
+    width: 100px;
+    height: 30px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+#teste button:hover {
+    background-color: aqua;
+}
+
+#teste button a:hover {
+    color: #000;
+}
+
+/*Botao*/
+
+/*Botao2*/
+#sobre button a {
+    color: #ffffff;
+}
+
+#sobre button {
+    background-color: rgb(142, 227, 248);
+    border-radius: 50%;
+    width: 100px;
+    height: 30px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+#sobre button:hover {
+    background-color: aqua;
+}
+
+#sobre button a:hover {
+    color: #000;
+}
+
+/*Botao2*/
+
+#menu {
+    background-color: #191970;
+    width: 100%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo a {
+    color: #ffffff;
+    font-weight: 800px;
+    font-size: 32px;
+    font-family: 'Yellowtail', sans-serif;
+}
+
+#menu2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#menu2 a {
+    color: #ffffff;
+
+}
+
+#menu2 a:hover {
+    background-color: #000000;
+    border-radius: 30%;
+
+
+}
+
+#topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./jpg/ilust.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1.5px;
+}
+
+#teste {
+    background-color: #0000007a;
+    border-radius: 15%;
+
+
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2em;
+    background-color: #1a0e81;
+    color: #ffffff;
+}
+
+#teste2 {
+    background-color: #000000;
+    border-radius: 15%;
+
+}
+
+#sobre h2 {
+    padding-bottom: 1em;
+}
+
+#especializações {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    margin-bottom: 1em;
+}
+
+#especializações .container {
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+    margin-right: auto;
+}
+
+#especializações div h3 {
+    padding-left: 1em;
+}
+
+#Referencias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Referencias h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/*Alinhamento imagem e texto*/
+
+/*Esboço*/
+#sprint1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+#sprint2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+#sprint3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+/*Projeto*/
+#Projt1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+#Projt2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.subtitulo {
+    margin-right: auto;
+}
+
+/*Alinhamento imagem /
+
+/*Alinhamento texto */
+
+#sprintComp {
+    text-align: center;
+}
+
+#sprintComp2 {
+    text-align: center;
+}
+
+#sprintComp3 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#projetoComp {
+    text-align: center;
+}
+
+#projetoComp2 {
+    text-align: center;
+}
+
+/*Alinhamento texto*/
+
+#contato .container2 {
+    background-color: rgba(225, 225, 225, 0.738);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.frase {
+    text-align: center;
+}
+
+#tel {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 50px
+}
+
+#numbers {
+    margin-left: 10px;
+}
+
+#email {
+    display: flex;
+    align-items: center;
+}
+
+#mail {
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #191970;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    font-size: larger;
+    background-color: rgb(0, 249, 249);
+    border-radius: 40%;
+}
