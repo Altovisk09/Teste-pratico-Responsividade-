@@ -151,6 +151,7 @@ h1 h2 h3 {
 
 #teste {
     background-color: #0000007a;
+    padding: 3em;
     border-radius: 15%;
 
 
@@ -326,4 +327,63 @@ footer a {
     font-size: larger;
     background-color: rgb(0, 249, 249);
     border-radius: 40%;
+}
+
+/*Celulares pequenos*/
+@media (max-width: 460px){
+#teste{
+ padding: 1em;
+}
+
+.subtexto{
+    text-align: left;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+}
+
+@media (max-width: 600px) and (orientation: landscape){
+    #teste{
+     padding: 1em;
+    }
+    
+    .subtexto{
+        text-align: left;
+        padding-left: 1em;
+        padding-top: 1em;
+    }
+    #sprint1{
+        width: 70%;
+    }
+    #sprintComp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sprint2{
+        width: 70%;
+    }
+    #sprintComp2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+    
+
+/*Tablets e Celulares maiores*/
+@media (max-width: 768px){
+
+}
+
+/*Notebook's e Tablets em paisagem*/
+@media (max-width: 1279px){
+
+}
+
+/*Monitores e telas maiores*/
+@media (min-width: 1280px){
+
 }

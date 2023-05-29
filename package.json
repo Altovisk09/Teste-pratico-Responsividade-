@@ -1,0 +1,20 @@
+{
+  "name": "mediaquerie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altovisk09/Teste-pratico-Responsividade-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Altovisk09/Teste-pratico-Responsividade-/issues"
+  },
+  "homepage": "https://github.com/Altovisk09/Teste-pratico-Responsividade-#readme"
+}
